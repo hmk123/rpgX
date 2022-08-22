@@ -211,16 +211,14 @@ class findM:
 
 
 
-                    isI, px, py =dm. FindPic(0, 0, 799, 599, "bag.bmp","000000",0.9,0,intX,intY)
-                    if isI != -1: 
-                        dm.KeyPressChar("i")
-                        time.sleep(0.5) 
+                self.closebag(dm)
                   
-    def closebag(dm)       
+    def closebag(dm)    :   
 
-    
-    intX=0
-        intY=0       
+                    isI=-1
+                    while   
+                    intX=0
+                    intY=0       
                     isI, px, py =dm. FindPic(0, 0, 799, 599, "bag.bmp","000000",0.9,0,intX,intY)
                     if isI != -1: 
                         dm.KeyPressChar("i")
