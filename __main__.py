@@ -120,13 +120,14 @@ def moveP(radius,x,y):
 
 
 def findPic():
-    picstr= path.getfile("/long")
+    picstr= path.getfile("/e")
 
     intX=0
     intY=0
     isI, px, py =dm. FindPic(18,7,784,453, picstr,"000000",1,0,intX,intY)
     print(  isI, px, py)
     if isI != -1: 
+        
     
             moveP(random.randrange(35,50),px, py)
         

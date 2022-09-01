@@ -38,12 +38,7 @@ def helloCallBack():
         
         pass
 
-
 def startFun(event):
-
-
-         
-
     global isStart , t1
     if t1 == None  :
         isStart = True
@@ -61,6 +56,12 @@ def startFun(event):
 b = Button ( root, text ="点我" )
 b.place ( x = 160, y = 70 )
 b.bind ( "<Button-1>", startFun )
+
+b = Button ( root, text ="点我" )
+b.place ( x = 160, y = 130 )
+b.bind ( "<Button-1>", startFun )
+
+
 
 
 def msg ():

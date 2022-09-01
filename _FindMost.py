@@ -1,5 +1,6 @@
  
  
+import random
 import time
 
 
@@ -137,11 +138,11 @@ class findM:
             ci()
             ci()
             ff() 
- 
- 
-    
 
- 
+        self        .closebag(dm)
+
+        if    random.randrange(1,10)       ==  1:
+            dm.moveTo(799,599)      
        
         if dm.FindMultiColor(0, 0, 800, 600, b_mian[0], b_mian[1], 1.0, 1, x, y)[0]==1:
                 evo()
@@ -213,17 +214,20 @@ class findM:
 
                 self.closebag(dm)
                   
-    def closebag(dm)    :   
+                  
+    def closebag(self,dm)    :   
 
                     isI=-1
-                    while   
-                    intX=0
-                    intY=0       
-                    isI, px, py =dm. FindPic(0, 0, 799, 599, "bag.bmp","000000",0.9,0,intX,intY)
-                    if isI != -1: 
-                        dm.KeyPressChar("i")
-                        time.sleep(0.5) 
- 
+                    while   1:
+                        intX=0
+                        intY=0       
+                        isI, px, py =dm. FindPic(0, 0, 799, 599, "bag.bmp","000000",0.9,0,intX,intY)
+                        if isI != -1: 
+                            dm.KeyPressChar("i")
+                            time.sleep(0.5) 
+                        else:
+                            break
+    
  
  
  
