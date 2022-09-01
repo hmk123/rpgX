@@ -79,7 +79,7 @@ for item in ["加钱",'充值']:
 menuBar.add_cascade ( label= "设置", menu= Amenu  )
 menuBar.add_cascade ( label= "设置", menu= Amenu  )
 
-
+#123
 
 def pop(event):
     menuBar.post(event.x_root, event.y_root)
