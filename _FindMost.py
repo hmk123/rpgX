@@ -141,7 +141,7 @@ class findM:
 
         self        .closebag(dm)
 
-        if    random.randrange(1,10)       ==  1:
+        if    random.randrange(1,10)       ==  10:
             dm.moveTo(799,599)      
        
         if dm.FindMultiColor(0, 0, 800, 600, b_mian[0], b_mian[1], 1.0, 1, x, y)[0]==1:

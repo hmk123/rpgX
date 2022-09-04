@@ -120,7 +120,7 @@ def moveP(radius,x,y):
 
 
 def findPic():
-    picstr= path.getfile("/e")
+    picstr= path.getfile("/LOng")
 
     intX=0
     intY=0
